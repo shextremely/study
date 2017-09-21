@@ -30,7 +30,7 @@ JavaScript致力于`为网站添加交互功能`，在Web的世界里，JavaScri
 
 ### 如何学习？
 
-网上的教程有很多，这里我就简单推荐几个（反正是在拿别人的劳动成果:sunglasses:）<br>
+网上的教程有很多，这里我就简单推荐几个（反正是在拿别人的劳动成果 :sunglasses: ）<br>
 
 * JavaScript高级程序设计  (Nicholas C.Zakas)
 
