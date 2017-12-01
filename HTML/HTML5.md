@@ -7,6 +7,7 @@ HTML5技术主要是关于图像、位置、存储、多任务等功能的增加
 canvas就像一块幕布，可以用JavaScript在上面绘制各种图表，动画等，成为了flash的可替代性方案。
 
 canvas基础功能在各浏览器的兼容问题如下图：
+
 ![canvas-support](../images/html5/canvas-support.png)
 
 一个canvas定义了一个指定尺寸的矩形框，我们可以在矩形框内随意绘制。
@@ -24,6 +25,7 @@ canvas基础功能在各浏览器的兼容问题如下图：
 使用教程略简单，具体见[w3c教程](http://www.w3school.com.cn/html5/html_5_video.asp)
 
 浏览器支持方面，video与audio基本一致
+
 ![audio-support](../images/html5/audio-support.png)
 
 ## 拖放
@@ -70,6 +72,7 @@ function drop(ev){
 html5表单新增了输入类型，提供了更好的输入控制和验证
 
 主要新增类型和其兼容性如图
+
 ![form-support](../images/html5/form-support.png)
 
 其中date-picker包括date, month, week, time, datetime, datetime-local
@@ -132,6 +135,7 @@ HTML5引入了应用程序缓存，即离线存储，这样即使在离线的时
 浏览器对缓存的容量进行设置，某些浏览器设为5MB。离线缓存基本流程为
 
 ![manifest流程](../images/html/manifest.png)
+
 当第一次访问设置有manifest属性的站点时，会缓存所需要的文件到本地；当再次访问时，浏览器首先会访问离线应用，然后检查manifest文件是否更新，如果没有更改，则显示缓存的内容，如果发生改变，则按照manifest的规则重新从服务器上拉取文件到本地，并更新页面内容。
 
 ### 如何使用
@@ -205,6 +209,7 @@ WebWorker为Web内容在后台线程中运行脚本提供了一个简单的方�
 workers和主线程间的数据传递通过这样的消息机制进行——双方都使用postMessage()方法发送各自的消息，使用onmessage事件处理函数来响应消息（消息被包含在Message事件的data属性中）。这个过程中数据并不是被共享而是被复制。
 
 其浏览器兼容情况如下图
+
 ![webworker](../images/html5/webworker.png)
 
 具体分析见[Web Worker你必须知道的7件事](http://blog.csdn.net/dojotoolkit/article/details/25030289)
