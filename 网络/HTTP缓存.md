@@ -57,5 +57,3 @@ If-None-Match则是请求报文中字段，发送请求时将附加该信息，�
 缓存具体流程如下：
 
 ![缓存流程](../images/cache_.jpg)
-
-参考链接：https://juejin.im/post/5a673af06fb9a01c927ed880
