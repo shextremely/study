@@ -26,12 +26,7 @@ HTTP报文就是浏览器和服务器通信时请求或者响应的数据块。�
 
 2. Cache-Control， 其是一个通用首部字段，也是HTTP1.1控制浏览器缓存的主流字段。和浏览器相关的相应指令如下：
 
-指令    |   参数    |   说明
-private |   无      |  表明响应只能被单个用户缓存，不能作为共享缓存（即代理服务器不能缓存它）
-public  |   可省略  |  表明响应可以被任何对象（包括：发送请求的客户端，代理服务器，等等）缓存
-no-cache|   可省略  |  缓存前必需确认其有效性
-no-store|   无      |  不缓存请求或响应的任何内容
-max-age=[s] | 必需  |  响应的最大值
+![Cache-Control指令](../images/cache-control.jpg)
 
 * max-age（单位为s）设置缓存的时间，相对于发送请求的时间。只有在响应报文中设置了Cache-Control为非0的max-age或者大于请求日期的Expires，才可能命中强缓存，
 *注意这里的Cache-Control可以叠加使用，若想命中强缓存，也要注意不能设置了no-cache和no-store*
@@ -61,6 +56,6 @@ If-None-Match则是请求报文中字段，发送请求时将附加该信息，�
 
 缓存具体流程如下：
 
-![缓存流程](../iamges/cache_.jpg)
+![缓存流程](../images/cache_.jpg)
 
 参考链接：https://juejin.im/post/5a673af06fb9a01c927ed880
