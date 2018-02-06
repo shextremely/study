@@ -37,7 +37,7 @@ console.log(ajax) //返回一个deferred对象
 
 首先我们来看Promise是什么，我们通过`console.dir(Promise)`看一下Promise
 
-![Promise](../../images/promise/promise.png)
+![Promise](../../../images/promise/promise.png)
 
 通过图我们可以看出，Promise本质上是一个构造函数，本身带有all,race,resolve,reject等方法，其原型上有then,catch等方法。所以我们通过new可以创建一个Promise对象。
 
@@ -49,7 +49,7 @@ console.log(ajax) //返回一个deferred对象
 
 JQuery用$.Deferred实现Promise规范，$.Deferred()返回的是一个对象，打印来看
 
-![Deferred](../../images/promise/deferred.png)
+![Deferred](../../../images/promise/deferred.png)
 
 从图中我们可以看出上面挂着always,done,fail,then方法。
 
