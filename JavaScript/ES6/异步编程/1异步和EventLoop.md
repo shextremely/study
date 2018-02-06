@@ -29,7 +29,7 @@ JavaScript是单线程的语言，就是同一个时间只能做同一件事。
 
 主线程从任务队列中读取事件，这个过程是循环不断的，所以这种运行机制又被称为Event Loop（事件循环）
 
-![Event Loop](../images/async/event-loop.png)
+![Event Loop](../../images/async/event-loop.png)
 
 我们看这个图可以知道，主线程在运行的时候，产生堆(heap)和栈(stack)，栈中的代码调用各种外部API，当执行到异步任务时，会在任务队列中添加各种事件(click, load, done)。只要栈中的代码执行完毕，任务队列中的第一个事件会进入栈（即主线程）中执行，执行完毕循环调用任务队列中的下一个事件，依次执行。
 
