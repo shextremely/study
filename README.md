@@ -16,14 +16,14 @@
   * [浏览器内核及其渲染原理](./HTML/浏览器内核.md)
   * [浏览器页面间通信](./HTML/浏览器页面间通信.md)
   * [行内元素，块级元素和空元素](./HTML/行内元素，块级元素和空元素.md)
-  * [页面可见性(Page Visibility)](./HTML/页面可见性(Page Visibility).md)
+  * [页面可见性](./HTML/页面可见性(Page Visibility).md)
   * [HTML5概述](./HTML/HTML5.md)
 
 
 ### JavaScript
   * [原型与原型链](./JavaScript/语法/原型与原型链.md)
-  * [异步编程1--异步和EventLoop](./JavaScript/异步编程/1异步和EventLoop.md)
-  * [异步编程2--Promise](./JavaScript/异步编程/2Promise.md)
+  * [异步编程1--异步和EventLoop](./JavaScript/ES6/异步编程/1异步和EventLoop.md)
+  * [异步编程2--Promise](./JavaScript/ES6/异步编程/2Promise.md)
   <!-- * [异步编程3--异步和EventLoop](./JavaScript/异步编程/3Generator.md)
   * [异步编程4--异步和EventLoop](./JavaScript/异步编程/4async.md) -->
 
