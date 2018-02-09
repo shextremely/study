@@ -5,8 +5,8 @@
 
 使用合适的压缩算法进行压缩，主要目的就是减少HTTP传输过程中的数据大小。压缩就是使用更小的位对信息进行编码的过程。下面来举例说明压缩的核心原理，以短信发送信息为例，原示例文件如下：
 
-> # Below is a secret message, which consists of a set of headers in
-> # Below is a secret message, which consists of a set of headers in
+> \# Below is a secret message, which consists of a set of headers in
+> \# Below is a secret message, which consists of a set of headers in
 > format: secret-cipher
 > date:08/25/16
 > AAAZZBBBBEEEMMM EEETTTAAA
