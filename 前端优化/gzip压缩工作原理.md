@@ -5,16 +5,16 @@
 
 使用合适的压缩算法进行压缩，主要目的就是减少HTTP传输过程中的数据大小。压缩就是使用更小的位对信息进行编码的过程。下面来举例说明压缩的核心原理，以短信发送信息为例，原示例文件如下：
 
-> \# Below is a secret message, which consists of a set of headers in
-> \# Below is a secret message, which consists of a set of headers in
-> format: secret-cipher
-> date:08/25/16
+> \# Below is a secret message, which consists of a set of headers in <br>
+> \# Below is a secret message, which consists of a set of headers in <br>
+> format: secret-cipher <br>
+> date:08/25/16 <br>
 > AAAZZBBBBEEEMMM EEETTTAAA
 
 我们在向客户端传送这些信息时，其实很多信息都是不需要的，如注释，如重复利用的标头，如重复性的文本内容。我们可以综合使用各种技术压缩其传送内容如下：
 
-> format: secret-cipher
-> date:08/25/16
+> format: secret-cipher <br>
+> date:08/25/16 <br>
 > 3A2Z4B3E3M 3E3T3A
 
 新短信相对于之前长度由200个字符变成56个字符，将信息压缩了72%，而且传送到客户端，有客户端再进行解析，我们就可以极大的提高网络传送的速度。我们在优化网页中使用的压缩算法其实和这些是类似的，通过预处理、环境特定优化以及为不同的内容采用不同的压缩算法等方式进行压缩优化。
