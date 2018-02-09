@@ -34,6 +34,9 @@
   * [HTTP缓存](./网络/HTTP缓存.md)
   * [GET和POST的区别](./网络/GET和POST的区别.md)
 
+### 前端优化
+  * [性能优化之GZIP压缩](./前端优化/gzip压缩工作原理.md)
+
 ### 知识点
   * [chrome开发者工具](../知识点/chrome开发者工具.md)
 
