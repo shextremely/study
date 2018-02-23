@@ -15,8 +15,8 @@ CSS和JS优化后的文件也可以下载以提供参考。
 ## 避免使用着陆页重定向
 
 重定向会触发额外的HTTP请求-响应周期，并会拖慢网页的显示速度。
-参考：https://www.cnblogs.com/cdwp8/p/4074412.html
-参考：http://blog.csdn.net/ssisse/article/details/51340086
+
+参考：[网站优化之尽量避免重定向](https://www.cnblogs.com/cdwp8/p/4074412.html)
 
 ## 启用压缩
 
@@ -55,7 +55,9 @@ CSS和JS优化后的文件也可以下载以提供参考。
 
 ## 优化CSS发送
 
-浏览器必须先处理当前网页的所有样式和布局信息，才会呈现内容。参考：
+浏览器必须先处理当前网页的所有样式和布局信息，才会呈现内容。
+
+参考：
 [渲染树构建、布局和绘制](https://developers.google.cn/web/fundamentals/performance/critical-rendering-path/render-tree-construction?hl=zh-cn)
 [阻塞渲染的CSS](https://developers.google.cn/web/fundamentals/performance/critical-rendering-path/render-blocking-css?hl=zh-cn)
 
