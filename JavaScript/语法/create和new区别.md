@@ -12,7 +12,7 @@ var o2 = Object.create(Base.prototype)
 
 我们输出o1和o2来看一下结果
 
-![create和new的区别](../images/javascript/createnew.png)
+![create和new的区别](../../images/javascript/createnew.png)
 
 我们可以一目了然，通过Object.create创建对象时，失去了Base构造函数本身的属性。下面我们来看一下MDN上对Object.create的定义。
 
@@ -63,7 +63,6 @@ Rectangle.prototype.constructor = Rectangle;
 
 第二个区别是可以通过Object.create(null)新建一个内在属性[[Prototype]]指向null的对象。
 
-![create null](../images/javascript/createnull.png)。
+![create null](../../images/javascript/createnull.png)。
 
 以上就是create和new的主要区别，在实例化和继承的过程中，尽量选用Object.create来实现。
-http://blog.csdn.net/blueblueskyhua/article/details/73135938

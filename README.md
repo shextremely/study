@@ -22,6 +22,7 @@
 
 ### JavaScript
   * [原型与原型链](./JavaScript/语法/原型与原型链.md)
+  * [Object.create和new的区别](./JavaScript/语法/create和new的区别.md)
   * [异步编程1--异步和EventLoop](./JavaScript/ES6/异步编程/1异步和EventLoop.md)
   * [异步编程2--Promise](./JavaScript/ES6/异步编程/2Promise.md)
   <!-- * [异步编程3--异步和EventLoop](./JavaScript/异步编程/3Generator.md)
@@ -40,6 +41,9 @@
 
 ### 知识点
   * [chrome开发者工具](../知识点/chrome开发者工具.md)
+
+### 算法
+  * [基数排序](../算法/基数排序.md)
 
 *******************
 
