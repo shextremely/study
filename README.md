@@ -27,6 +27,8 @@
   * [异步编程2--Promise](./JavaScript/ES6/异步编程/2Promise.md)
   <!-- * [异步编程3--异步和EventLoop](./JavaScript/异步编程/3Generator.md)
   * [异步编程4--异步和EventLoop](./JavaScript/异步编程/4async.md) -->
+  * [Javascript事件](./JavaScript/Javascript事件.md)
+  * [delete操作符](./JavaScript/Javascript的delete操作符.md)
 
 ### NodeJS
   * [npm-scripts](./NodeJS/npm/npm-scripts.md)
