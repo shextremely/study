@@ -18,6 +18,7 @@
   * [行内元素，块级元素和空元素](./HTML/行内元素，块级元素和空元素.md)
   * [页面可见性](./HTML/页面可见性.md)
   * [HTML5概述](./HTML/HTML5.md)
+  * [浏览器内核控制Meta标签](./HTML/控制浏览器内核meta标签.md)
 
 
 ### JavaScript
