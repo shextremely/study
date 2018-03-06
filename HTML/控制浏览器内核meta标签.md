@@ -18,6 +18,6 @@
 ```
 
 content的取值为webkit、ie-comp和ie-stand，分别代表webkit内核，IE兼容内核，IE标准内核。
-若页面需要极速内核，增加标签: <meta name="renderer" content="webkit">
+若页面需要极速内核，增加标签: `<meta name="renderer" content="webkit">`
 
 这里的webkit对应于Chrome21，IE兼容对应于IE6/IE7，IE标准对应于IE9/IE10/IE11
