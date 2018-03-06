@@ -8,7 +8,7 @@ DNS全程是Domain Name System，即域名系统，是域名和IP地址相互映
 
 域名解析即通过主机名，最终得到该主机名对应的IP地址的过程，浏览器对网站的第一次域名DNS解析查找流程依次为：
 
-浏览器缓存 -> 系统缓存 -> 路由器缓存 -> ISP DNS缓存 -> 递归搜索
+> 浏览器缓存 -> 系统缓存 -> 路由器缓存 -> ISP DNS缓存 -> 递归搜索
 
 典型的一次DNS解析需要耗时20-120ms。
 
@@ -22,7 +22,7 @@ DNS全程是Domain Name System，即域名系统，是域名和IP地址相互映
 
 目前大多数浏览器都支持 DNS Prefetch，目前兼容情况如下图：
 
-![DNS预解析](../images/html/dns-prefetch.png)
+![DNS预解析](../images/html5/dns-prefetch.png)
 
 其中Chrome和Firefox3.5+内置了DNS Prefetch技术并对DNS预解析做了相应的优化设置，所以即使不设置此属性，也能自动的在后台进行预解析。
 
@@ -38,7 +38,7 @@ DNS全程是Domain Name System，即域名系统，是域名和IP地址相互映
 </html>
 ```
 
-不过需要注意禁止滥用，我们可以通过`<meta http-equiv="x-dns-prefetch-control" content="off">`
+不过需要注意禁止滥用，我们可以通过`<meta http-equiv="x-dns-prefetch-control" content="off">`来禁用DNS预解析功能。
 
 下面是DNS预解析需要注意的特性：
 

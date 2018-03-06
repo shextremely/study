@@ -41,7 +41,7 @@
 ### 前端优化
   * [性能优化之GZIP压缩](./前端优化/gzip压缩工作原理.md)
   * [Chrome插件之PageSpeedInsights](./前端优化/PageSpeedInsights.md)
-  * [DNS预解析](./前端优化/前端优化.md)
+  * [DNS预解析](./前端优化/DNS预解析.md)
 
 ### 知识点
   * [chrome开发者工具](../知识点/chrome开发者工具.md)
