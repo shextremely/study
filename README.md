@@ -11,6 +11,7 @@
   * [盒模型](./CSS/盒模型.md)
   * [CSS权重计算方式](./CSS/CSS权重计算方式.md)
   * [content实现计数器功能](./CSS/深入理解content计数器.md)
+  * [CSS布局](./CSS/布局.md)
 
 ### HTML
   * [标准模式和兼容模式](./HTML/标准模式与兼容模式.md)
@@ -27,6 +28,7 @@
   * [Object.create和new的区别](./JavaScript/语法/create和new的区别.md)
   * [异步编程1--异步和EventLoop](./JavaScript/ES6/异步编程/1异步和EventLoop.md)
   * [异步编程2--Promise](./JavaScript/ES6/异步编程/2Promise.md)
+  * [Proxy代理验证](./JavaScript/ES6/Proxy代理验证.md)
   <!-- * [异步编程3--异步和EventLoop](./JavaScript/异步编程/3Generator.md)
   * [异步编程4--异步和EventLoop](./JavaScript/异步编程/4async.md) -->
   * [Javascript事件](./JavaScript/Javascript事件.md)
