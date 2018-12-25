@@ -110,9 +110,9 @@ npm install webpack karma-webpack --save-dev
 // karma.config.js
 {
     files: [
-        /* '~temp/js/**/*.js'*/,
+        // '~temp/js/**/*.js',
         // 这里因模块化的问题，需要在测试用例中手动引入相应的文件，这里可注释掉
-        /* 'dev/js/**/*.js'*/, 
+        // 'dev/js/**/*.js', 
         'test/**/*.spec.js'
     ],
     preprocessors: {
@@ -192,7 +192,7 @@ function asyncFun () {
 
 > 为了很好的区分单元测试和代码覆盖率的问题，这里我们起两个命令分别执行：
 
-> ps: 注意这里使用了babelistanbul插件，需要手动执行```npm install babel-plugin-istanbul --save-dev```安装
+> ps: 注意这里使用了babel-istanbul插件，需要手动执行```npm install babel-plugin-istanbul --save-dev```安装
 ```
 // package.json
 "scripts": {

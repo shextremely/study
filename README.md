@@ -42,6 +42,7 @@
   * [GET和POST的区别](./网络/GET和POST的区别.md)
 
 ### 前端优化
+  * [前端规范(工具篇)](./前端优化/前端规范（工具）.md)
   * [性能优化之GZIP压缩](./前端优化/gzip压缩工作原理.md)
   * [Chrome插件之PageSpeedInsights](./前端优化/PageSpeedInsights.md)
   * [DNS预解析](./前端优化/DNS预解析.md)
