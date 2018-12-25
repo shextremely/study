@@ -31,6 +31,8 @@
   * [Proxy代理验证](./JavaScript/ES6/Proxy代理验证.md)
   <!-- * [异步编程3--异步和EventLoop](./JavaScript/异步编程/3Generator.md)
   * [异步编程4--异步和EventLoop](./JavaScript/异步编程/4async.md) -->
+  * [~妙用--判断字符是否在某字符串中](./JavaScript/~妙用--判断字符是否在某字符串中.md)
+  * [onreadystatechange和onload](./JavaScript/onreadystatechange和onload.md)
   * [Javascript事件](./JavaScript/Javascript事件.md)
   * [delete操作符](./JavaScript/Javascript的delete操作符.md)
 
