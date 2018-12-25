@@ -47,8 +47,8 @@
   * [DNS预解析](./前端优化/DNS预解析.md)
 
 ### 前端测试
-  * [前端测试-概述](./前端测试/前端测试-概述.md)
-  * [Karma + mocha + chai 环境搭建](./前端测试、Karma + mocha + chai 环境搭建.md)
+  * [前端测试-概述](./测试/前端测试-概述.md)
+  * [Karma+mocha+chai环境搭建](./测试/Karma+mocha+chai环境搭建.md)
 
 ### 知识点
   * [chrome开发者工具](../知识点/chrome开发者工具.md)
