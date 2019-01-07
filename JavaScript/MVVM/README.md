@@ -63,6 +63,7 @@ npx webpack-dev-server
 
 ### MVVM入口
 ![image](https://github.com/shextremely/study/blob/master/images/mvvm.jpg?raw=true)
+
 如图，我们首先需实现MVVM类，这里我们先对传给MVVM的数据进行劫持，并实现监听。
 这里需要注意的几点：
 1. data可以为对象，也可以为函数，建议data项为函数;
@@ -152,6 +153,7 @@ export default MVVM
 
 ### Compile模板编译
 ![image](https://github.com/shextremely/study/blob/master/images/mvvm.jpg?raw=true)
+
 如图我们实现指令编译器功能，这里直接上代码，具体注释在代码中；
 ```javascript
 // util.js
@@ -378,6 +380,7 @@ export default Compile
 
 ### Watcher观察者
 ![image](https://github.com/shextremely/study/blob/master/images/mvvm.jpg?raw=true)
+
 接下来实现当数据变化时，同步更新DOM节点，我们需要考虑的有几点：
 1. 当数据变化时，每一个元素应如何变化？
 2. 当数据变化时，如何知道有哪些元素发生了变化？
