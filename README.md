@@ -31,6 +31,8 @@
   * [Proxy代理验证](./JavaScript/ES6/Proxy代理验证.md)
   <!-- * [异步编程3--异步和EventLoop](./JavaScript/异步编程/3Generator.md)
   * [异步编程4--异步和EventLoop](./JavaScript/异步编程/4async.md) -->
+  * [~妙用--判断字符是否在某字符串中](./JavaScript/~妙用--判断字符是否在某字符串中.md)
+  * [onreadystatechange和onload](./JavaScript/onreadystatechange和onload.md)
   * [Javascript事件](./JavaScript/Javascript事件.md)
   * [delete操作符](./JavaScript/Javascript的delete操作符.md)
   * [一个简单的MVVM](./JavaScript/MVVM/README.md)
@@ -43,9 +45,14 @@
   * [GET和POST的区别](./网络/GET和POST的区别.md)
 
 ### 前端优化
+  * [前端规范(工具篇)](./前端优化/前端规范（工具）.md)
   * [性能优化之GZIP压缩](./前端优化/gzip压缩工作原理.md)
   * [Chrome插件之PageSpeedInsights](./前端优化/PageSpeedInsights.md)
   * [DNS预解析](./前端优化/DNS预解析.md)
+
+### 前端测试
+  * [前端测试-概述](./测试/前端测试-概述.md)
+  * [Karma+mocha+chai环境搭建](./测试/Karma+mocha+chai环境搭建.md)
 
 ### 知识点
   * [chrome开发者工具](../知识点/chrome开发者工具.md)
