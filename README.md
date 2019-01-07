@@ -33,6 +33,7 @@
   * [异步编程4--异步和EventLoop](./JavaScript/异步编程/4async.md) -->
   * [Javascript事件](./JavaScript/Javascript事件.md)
   * [delete操作符](./JavaScript/Javascript的delete操作符.md)
+  * [一个简单的MVVM](./JavaScript/MVVM/README.md)
 
 ### NodeJS
   * [npm-scripts](./NodeJS/npm/npm-scripts.md)
